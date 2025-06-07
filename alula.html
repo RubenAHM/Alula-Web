@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alula Inc.</title>
+    <link rel="stylesheet" href="css/alula.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <!-- Logo + Sobre nosotros (siempre visibles) -->
+        <div class="logo-container">
+            <a href="#logo-modal" class="logo lightbox-trigger">
+                <img src="assets/logo2.jpg" alt="Logo" class="logo-img">
+            </a>
+            <a href="about.html" class="about-link">Sobre Nosotros</a>
+        </div>
+    
+        <!-- Botón hamburguesa (solo móviles) -->
+        <button class="menu-toggle" aria-label="Menú">☰</button>
+    
+        <!-- Enlaces ocultos en móviles -->
+        <ul class="nav-links">
+            <li><a href="#mision">Misión</a></li>
+            <li><a href="#vision">Visión</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#organigrama">Organigrama</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+        </ul>
+    </nav>
+
+    <div id="logo-modal" class="lightbox">
+        <a href="#close" class="lightbox-close">&times;</a>
+        <div class="lightbox-content"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('assets/hero1-bg.jpg');">
+        <div class="hero-overlay"></div> <!-- Capa para mejorar legibilidad -->
+        <h1>Bienvenido a Alula</h1>
+        <p>Conozca y explore los sitios más interesantes de la localidad.</p>
+    </section>
+
+    <!-- Sección Misión -->
+    <section id="mision" class="section">
+        <div class="container">
+            <h2>Misión</h2>
+            <div class="text-box">
+                <p>En Alula, nuestra misión es redescubrir el turismo local, conectando a viajeros con experiencias auténticas y con destinos, tanto los populares como los menos explorados, mediante la creación de una plataforma digital eficiente, segura e intuitiva.
+                </p>
+                <br>
+                <p>Creemos que cada lugar o rincón, por pequeño que sea, alberga historias, cultura y belleza que merecen ser conocidas. Es por eso, que junto a nuestra plataforma, nos comprometemos a proporcionar información y acceso a lugares poco frecuentados que merecen ser explorados. Fomentamos un turismo responsable, promoviendo la preservación del patrimonio natural y cultural, en donde la comunidad local juega un papel central.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Visión -->
+    <section id="vision" class="section">
+        <div class="container">
+            <h2>Visión</h2>
+            <div class="text-box">
+                <p>Alula aspira a ser el referente global en la promoción del turismo local, transformando la manera en que las personas exploran su entorno y conectan con comunidades auténticas. A medida que crecemos, nuestra visión es expandir nuestra plataforma para abarcar nuevos territorios, integrando tecnología innovadora y alianzas estratégicas con actores locales, nacionales e internacionales.
+                </p>
+                <br>
+                <p>Buscamos fomentar un modelo de turismo que no solo beneficie a los viajeros, sino que impulse el desarrollo sostenible de cada región. Además, queremos que Alula sea sinónimo de aventura, conocimiento y respeto por los destinos cercanos. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Objetivos -->
+    <section id="objetivos" class="section">
+        <div class="container">
+            <h2>Objetivos</h2>
+            <div class="objetivos-grid">
+                <!-- Cuadro 1 -->
+                <div class="objetivo-card" style="background-image: url('assets/objetivo1-bg.jpg');">
+                    <div class="objetivo-content">
+                        <h3>Objetivo General</h3>
+                        <p>
+                            Impulsar el turismo local y sostenible, promoviendo destinos menos conocidos y el desarrollo comunitario. 
+                            Fomentamos un turismo responsable que respete el medio ambiente, las culturas locales y la economía regional. 
+                            Garantizamos seguridad mediante información precisa y mecanismos de protección, junto con eficiencia en la 
+                            entrega de servicios para que los usuarios exploren con facilidad y confianza.
+                        </p>
+                    </div>
+                </div>
+                <!-- Cuadro 2 -->
+                <div class="objetivo-card" style="background-image: url('assets/objetivo2-bg.jpg');">
+                    <div class="objetivo-content">
+                        <h3>Objetivos Específicos</h3>
+                        <p>Los objetivos específicos incluyen optimizar la plataforma digital para mejorar su usabilidad y accesibilidad, 
+                            desarrollar alianzas estratégicas con actores turísticos y locales para diversificar la oferta, 
+                            promover prácticas ecológicas mediante el apoyo a destinos sostenibles, 
+                            y expandir la cobertura geográfica de Alula, incorporando nuevas regiones basadas en las preferencias de los usuarios.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Organigrama -->
+    <section id="organigrama" class="section">
+        <div class="container">
+            <h2>Organigrama</h2>
+            <div ><center> <p >En Alula, estamos organizados con una directiva capacitada:</p></center>
+               </div>
+            
+            <div class="organigrama-container">
+                <img src="assets/organigrama.png" alt="Organigrama de la empresa" class="organigrama-img">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="valores" class="section">
+        <div class="container">
+            <h2>Valores</h2>
+            <div class="valores-grid">
+                <!-- Cuadro 1 -->
+                <div class="valor-card" style="background-image: url('assets/valores1-bg.jpg');">
+                    <div class="valor-content">
+                        <p>✔ <strong>Autenticidad:</strong> Mostramos destinos y comunidades con transparencia, celebrando su esencia real. <br>
+                            ✔ <strong>Responsabilidad: </strong> Turismo sostenible que cuida el ambiente y empodera economías locales. <br>
+                            ✔ <strong>Conexión:</strong> Creamos puentes culturales entre viajeros y comunidades. <br>
+                            ✔ <strong>Innovación:</strong> Tecnología y creatividad al servicio de experiencias transformadoras.</p>
+                    </div>
+                </div>
+                <!-- Cuadro 2 -->
+                <div class="valor-card" style="background-image: url('assets/valores2-bg.jpg');">
+                    <div class="valor-content">
+                        <p>✔ <strong>Compromiso:</strong> Conectamos viajeros con experiencias auténticas para preservar el legado de cada región.<br><br>
+                            ✔ <strong>Eficiencia:</strong> Información clara, rutas optimizadas y servicios fluidos para viajes accesibles.<br><br>
+                            ✔ <strong>Seguridad:</strong> Destinos confiables, datos verificados y protección al viajero como prioridad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Columna 1: Logo y descripción -->
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <img src="assets/logo2.jpg" alt="Alula Turismo" class="logo-img">
+                    <span>Alula</span>
+                </div>
+                <p class="footer-description">
+                    Impulsando el turismo sostenible y experiencias auténticas desde 2025.
+                </p>
+            </div>
+    
+            <!-- Columna 2: Contacto -->
+            <div class="footer-column">
+                <h4>Contacto</h4>
+                <ul class="footer-links">
+                    <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                    <li><i class="fas fa-envelope"></i> info@alula.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> San Juan, Venezuela</li>
+                </ul>
+            </div>
+    
+            <!-- Columna 3: Redes sociales -->
+            <div class="footer-column">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Línea de copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Alula. Todos los derechos reservados.</p>
+            <div class="legal-links">
+                <a href="#">Política de privacidad</a>
+                <a href="#">Términos de servicio</a>
+            </div>
+        </div>
+    </footer>
+ <script src="js/menu.js"></script>
+
+
+</body>
+</html>
