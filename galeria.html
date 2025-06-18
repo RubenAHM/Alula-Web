@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | Alula</title>
+    <link rel="stylesheet" href="css/alula.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="#logo-modal" class="logo lightbox-trigger">
+                    <img src="assets/logo2.jpg" alt="Logo" class="logo-img">
+                </a>
+                <a href="alula.html" class="about-link">Sobre Nosotros</a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="trabajo.html" class="active">Nuestro Trabajo</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="galeria.html">Foto Galería</a></li>
+                <li><a href="interes.html">Sitios de Interés</a></li>
+                <li><a href="naturaleza.html">Belleza Natural</a></li>
+                <li><a href="restaurantes.html">Restaurantes</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </nav>
+
+        <div id="logo-modal" class="lightbox">
+            <a href="#close" class="lightbox-close">&times;</a>
+            <div class="lightbox-content"></div>
+        </div>
+
+    <!-- Hero Galería -->
+    <section class="hero" style="background-image: url('assets/hero1-bg.jpg');">
+        <div class="container">
+            <div class="hero-overlay"></div>
+            <h1>Explora Nuestro Mundo</h1>
+            <p>Capturas auténticas de las experiencias que creamos y los destinos que amamos</p>
+        </div>
+    </section>
+
+    <!-- Galería Fotográfica -->
+    <section class="photo-gallery">
+        <div class="container">
+            <!-- Fila 1 -->
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <img src="assets/cerro.webp" alt="Aventura en montañas">
+                    <div class="overlay">
+                        <p>Vista desde el Cerro Santa Rosa</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/estatua.webp" alt="Cultura local">
+                    <div class="overlay">
+                        <p>El "San Juanote"</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/hero-bg.jpg" alt="Playas vírgenes">
+                    <div class="overlay">
+                        <p>Morros de San Juan</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fila 2 -->
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <img src="assets/sabor.webp" alt="Gastronomía">
+                    <div class="overlay">
+                        <p>Rest. Sabor y Sazón</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/bandera.webp" alt="Ecoturismo">
+                    <div class="overlay">
+                        <p>Monumento a la bandera</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/biblioteca.webp" alt="Festivales">
+                    <div class="overlay">
+                        <p>Biblioteca pública de San Juan</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fila 3 -->
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <img src="assets/tom.webp" alt="Alojamientos">
+                    <div class="overlay">
+                        <p>Cartel en el Cerro Santa Rosa</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/mirador2.jpg" alt="Aventura">
+                    <div class="overlay">
+                        <p>El Mirador</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/platillon.jpg" alt="Atardeceres">
+                    <div class="overlay">
+                        <p>Cerro Platillón</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/terma.jpg" alt="Atardeceres">
+                    <div class="overlay">
+                        <p>Aguas termales</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/castrero.jpg" alt="Atardeceres">
+                    <div class="overlay">
+                        <p>El Castrero</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Columna 1: Logo y descripción -->
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <img src="assets/logo2.jpg" alt="Alula Turismo" class="logo-img">
+                    <span>Alula</span>
+                </div>
+                <p class="footer-description">
+                    Impulsando el turismo sostenible y experiencias auténticas desde 2025.
+                </p>
+            </div>
+    
+            <!-- Columna 2: Contacto -->
+            <div class="footer-column">
+                <h4>Contacto</h4>
+                <ul class="footer-links">
+                    <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                    <li><i class="fas fa-envelope"></i> info@alula.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> San Juan, Venezuela</li>
+                </ul>
+            </div>
+    
+            <!-- Columna 3: Redes sociales -->
+            <div class="footer-column">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61577263166423" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/dr_operador/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/Dir_Abner_Ort" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Línea de copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Alula. Todos los derechos reservados.</p>
+            <div class="legal-links">
+                <a href="#">Política de privacidad</a>
+                <a href="#">Términos de servicio</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+</body>
+</html>

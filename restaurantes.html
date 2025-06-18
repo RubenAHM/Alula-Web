@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios | Alula</title>
+    <title>Restaurantes | Alula</title>
     <link rel="stylesheet" href="css/alula.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navbar simplificada -->
+    <!-- Navbar -->
     <header class="header">
         <nav class="navbar">
             <div class="logo-container">
@@ -19,7 +19,6 @@
                 <a href="alula.html" class="about-link">Sobre Nosotros</a>
             </div>
 
-            <button class="menu-toggle" aria-label="Menú">☰</button>
             <ul class="nav-links">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="trabajo.html" class="active">Nuestro Trabajo</a></li>
@@ -29,52 +28,91 @@
                 <li><a href="naturaleza.html">Belleza Natural</a></li>
                 <li><a href="restaurantes.html">Restaurantes</a></li>
             </ul>
+            <button class="menu-toggle">☰</button>
         </nav>
+
+        <div id="logo-modal" class="lightbox">
+            <a href="#close" class="lightbox-close">&times;</a>
+            <div class="lightbox-content"></div>
+        </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" style="background-image: url('assets/servicios-hero.jpg');">
-        <div class="hero-overlay"></div>
-        <h1>"Es la hora de explorar San Juan con nosotros"</h1>
-        <p>Alula es una empresa de turismo especializada en ofrecer una experiencia única y auténticas en la ciudad de San Juan de los Morros. Ofrecemos la facilidad de información sobre los diferentes locales, rutas diseñadas con visitas a los lugares más emblemáticos y menos conocidos de la región. Descubre la verdadera esencia de esta hermosa ciudad con nosotros. </p>
-    </section>
+    <!-- Hero Galería -->
+    
 
-    <!-- Sección de Servicios -->
-    <section class="servicios-section">
+
+    <section class="hero" style="background-image: url('assets/hero1-bg.jpg');">
         <div class="container">
-            <div class="servicios-grid">
-                <!-- Servicio 1 -->
-                <div class="servicio">
-                    <div class="servicio-img" style="background-image: url('assets/bandera.webp');"></div>
-                    <div class="servicio-desc">
-                        <h3>Sitios de interés</h3>
-                        <p>Transpórtate  a través de esta hermosa ciudad para conocer la rica cultura y sus monumentos más emblemáticos.</p>
-                    </div>
-                </div>
-    
-                <!-- Servicio 2 -->
-                <div class="servicio">
-                    <div class="servicio-img" style="background-image: url('assets/sabor.webp');"></div>
-                    <div class="servicio-desc">
-                        <h3>Restaurantes</h3>
-                        <p>Establecimientos donde se preparan y sirven alimentos y bebidas a los comensales, creando un espacio propicio para la convivencia y el disfrute de la gastronomía. En él, la experiencia culinaria se entrelaza con el servicio, ofreciendo un refugio para los sentidos y un lugar de encuentro social. </p>
-                    </div>
-                </div>
-    
-                <!-- Servicio 3 -->
-                <div class="servicio">
-                    <div class="servicio-img" style="background-image: url('assets/hero-bg.jpg');"></div>
-                    <div class="servicio-desc">
-                        <h3>Belleza Natural</h3>
-                        <p>La naturaleza es un refugio para el espíritu, un lienzo donde los colores del amanecer se entrelazan con la melodía del canto de los pájaros. En sus paisajes, descubrimos la armonía que anhela nuestro ser, una sinfonía de vida que nos invita a respirar profundamente y a recordar que somos parte de un todo. </p>
-                    </div>
-                </div>
-            </div>
+            <div class="hero-overlay"></div>
+            <h1>Restaurantes y Sitios de Comida</h1>
         </div>
     </section>
 
+    <!-- Galería Fotográfica -->
+    <section class="photo-gallery">
+        <div class="container">
+            <!-- Fila 1 -->
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <img src="assets/patronus.webp" alt="Aventura en montañas">
+                    <div class="overlay">
+                        <p>Patronus Pizza</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/pollo.webp" alt="Cultura local">
+                    <div class="overlay">
+                        <p>Chicken Center</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/Tropi.webp" alt="Playas vírgenes">
+                    <div class="overlay">
+                        <p>Tropi Pizza</p>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Fila 2 -->
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <img src="assets/erika.jpg" alt="Gastronomía">
+                    <div class="overlay">
+                        <p>El rincón de Erika</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/sabor.webp" alt="Ecoturismo">
+                    <div class="overlay">
+                        <p>Rest. Sabor y sazón</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/cabalo.jpg" alt="Festivales">
+                    <div class="overlay">
+                        <p>Rest. El caballo español</p>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Fila 3 -->
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <img src="assets/valery.webp" alt="Alojamientos">
+                    <div class="overlay">
+                        <p>Valery Pizza</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/churro.webp" alt="Alojamientos">
+                    <div class="overlay">
+                        <p>Churro Express</p>
+                    </div>
+                </div>
+                
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -120,7 +158,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/menu.js"></script>
 
+    <script src="js/menu.js"></script>
 </body>
 </html>

@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios | Alula</title>
+    <title>Sitios de Interés | Alula</title>
     <link rel="stylesheet" href="css/alula.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
 <body>
-    <!-- Navbar simplificada -->
+    <!-- Navbar -->
     <header class="header">
         <nav class="navbar">
             <div class="logo-container">
@@ -19,7 +20,6 @@
                 <a href="alula.html" class="about-link">Sobre Nosotros</a>
             </div>
 
-            <button class="menu-toggle" aria-label="Menú">☰</button>
             <ul class="nav-links">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="trabajo.html" class="active">Nuestro Trabajo</a></li>
@@ -29,52 +29,44 @@
                 <li><a href="naturaleza.html">Belleza Natural</a></li>
                 <li><a href="restaurantes.html">Restaurantes</a></li>
             </ul>
+            <button class="menu-toggle">☰</button>
         </nav>
+
+        <div id="logo-modal" class="lightbox">
+            <a href="#close" class="lightbox-close">&times;</a>
+            <div class="lightbox-content"></div>
+        </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" style="background-image: url('assets/servicios-hero.jpg');">
-        <div class="hero-overlay"></div>
-        <h1>"Es la hora de explorar San Juan con nosotros"</h1>
-        <p>Alula es una empresa de turismo especializada en ofrecer una experiencia única y auténticas en la ciudad de San Juan de los Morros. Ofrecemos la facilidad de información sobre los diferentes locales, rutas diseñadas con visitas a los lugares más emblemáticos y menos conocidos de la región. Descubre la verdadera esencia de esta hermosa ciudad con nosotros. </p>
-    </section>
+    
 
-    <!-- Sección de Servicios -->
-    <section class="servicios-section">
+    <section class="interest-hero" style="background-image: url('assets/hero1-bg.jpg');">
         <div class="container">
-            <div class="servicios-grid">
-                <!-- Servicio 1 -->
-                <div class="servicio">
-                    <div class="servicio-img" style="background-image: url('assets/bandera.webp');"></div>
-                    <div class="servicio-desc">
-                        <h3>Sitios de interés</h3>
-                        <p>Transpórtate  a través de esta hermosa ciudad para conocer la rica cultura y sus monumentos más emblemáticos.</p>
-                    </div>
-                </div>
-    
-                <!-- Servicio 2 -->
-                <div class="servicio">
-                    <div class="servicio-img" style="background-image: url('assets/sabor.webp');"></div>
-                    <div class="servicio-desc">
-                        <h3>Restaurantes</h3>
-                        <p>Establecimientos donde se preparan y sirven alimentos y bebidas a los comensales, creando un espacio propicio para la convivencia y el disfrute de la gastronomía. En él, la experiencia culinaria se entrelaza con el servicio, ofreciendo un refugio para los sentidos y un lugar de encuentro social. </p>
-                    </div>
-                </div>
-    
-                <!-- Servicio 3 -->
-                <div class="servicio">
-                    <div class="servicio-img" style="background-image: url('assets/hero-bg.jpg');"></div>
-                    <div class="servicio-desc">
-                        <h3>Belleza Natural</h3>
-                        <p>La naturaleza es un refugio para el espíritu, un lienzo donde los colores del amanecer se entrelazan con la melodía del canto de los pájaros. En sus paisajes, descubrimos la armonía que anhela nuestro ser, una sinfonía de vida que nos invita a respirar profundamente y a recordar que somos parte de un todo. </p>
-                    </div>
-                </div>
+            <div class="hero-overlay"></div>
+            <h1>Sitios de Interés</h1>
+        </div>
+    </section>
+    <br><br>
+    <!-- Galería de Imágenes -->
+    <section class="image-gallery2">
+        <div class="container">
+            <div class="gallery-row2">
+                <img src="assets/estatua.webp" alt="Parque Nacional" class="gallery-img2">
+                <img src="assets/iglesia.webp" alt="Pueblo colonial" class="gallery-img2">
+                <img src="assets/plaza.webp" alt="Playas" class="gallery-img2">
+            </div>
+            
+            <!-- Párrafo descriptivo -->
+            <div class="gallery-description2">
+                <p style="text-indent: 20px;"> La plaza bolívar se encuentra ubicada en la Avenida Sandra y Cedeño, entre la Iglesia San Juan Bautista, estatua de San Juan  la Gobernación y la Alcaldía del Municipio Juan Germán Roscio. Este importante espacio público fue inaugurado el 24 de junio de 1935 y en su construcción se emplearon materiales modernos. De tal manera, se originan cuatro áreas verdes provistas de árboles altos y vegetación ornamental. Su piso es de granito. Al centro, sobre un alto pedestal se encuentra la estatua pedestre del Libertador Simón Bolívar.</p>
+                    <br> 
+                <p style="text-indent: 20px;"> La plaza también está dotada de bancos y alumbrado público. En el sector que conduce a las escaleras que llevan al monumento en honor a San Juan Bautista (San Juanote), destacan dos grandes fuentes.</p>
+                    <br> 
+                <p style="text-indent: 20px;">La plaza está circundada por edificaciones monumentales como lo son la sede de la Gobernación, la iglesia San Juan Bautista, y la Alcaldía del Municipio Juan Germán Roscio. La comunidad otorga gran valoración a este espacio porque en él se conmemoran las fiestas patrias, religiosas y populares desde su inauguración hasta nuestros días. Además del San Juanote, en la plaza Bolívar se alzan cuatro esculturas. Éstas son; Los dos leones; una estatua pedestre del Libertador Simón Bolívar, donada por Juan Vicente Gómez en 1935; el busto del insigne pedagogo e intelectual Simón Rodríguez (Caracas, 1769-Amotope, 1854) y el busto del educador Antonio Miguel Martínez.</p>
             </div>
         </div>
     </section>
-
-
-
 
     <!-- Footer -->
     <footer class="footer">
@@ -120,7 +112,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/menu.js"></script>
 
+    <script src="js/menu.js"></script>
 </body>
 </html>
